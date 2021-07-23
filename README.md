@@ -23,6 +23,8 @@
 + 文件
   + cal_flat_path.py：轨迹点计算python程序
   + calTmatrix.m：matlab运行函数
+  + forward_kinematics.m：正运动学matlab程序
+  + inverse_kinematics.m：逆运动学matlab程序
   + path_cal.mat：“山大”轨迹点路径变量
   + requirements.txt：python运行环境
   + shanda_icon.png：“山大“文字图片
@@ -49,14 +51,7 @@
 
 ### D-H参数表
 
-| #      | $\theta_i$ | $d_i(m)$ | $a_i(m)$ | $\alpha_i(rad)$ |
-| :-: | :-: | :-: | :-:  | :-:  |
-| 1 | $\theta_1$ | 0.15190 |0|$\frac{\pi}{2}$|
-| 2 | $\theta_2$ | 0 |-0.24365|0|
-| 3 | $\theta_3$ | 0 |-0.21300|0|
-| 4 | $\theta_4$ | 0.08340 |0|$\frac{\pi}{2}$|
-| 5 | $\theta_5$ | 0.08340 |0|$-\frac{\pi}{2}$|
-| 6 | $\theta_6$ | 0.08240 |0|0|
+<img src="./img/img15.png">
 
 
 
