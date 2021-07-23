@@ -55,6 +55,7 @@ for i=1:length(P3)
 end
 
 % 球面绘图
+figure('color','w');
 hold on
 [X,Y,Z] = sphere;
 X2 = X * r;
@@ -71,4 +72,5 @@ shading interp
 % 将机械臂轨迹可视化
 W = [-800, +800, -800, +800, -800, +800];
 hold on
+robot.plot(qrt, 'tilesize', 150, 'workspace', W, 'trail', '-r', 'jointdiam', 1)
 robot.plot(qrt, 'tilesize', 150, 'workspace', W, 'trail', '-r', 'jointdiam', 1)
